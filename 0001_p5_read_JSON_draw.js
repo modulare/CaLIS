@@ -41,7 +41,7 @@ let entitObjects = [];
 
 // Put any asynchronous data loading in preload to complete before "setup" is run
 function preload() {
-  data = loadJSON('data/entitArchivio.json');
+  data = loadJSON('data/0001_p5_read_JSON_draw.json');
 }
 
 // Convert saved data into Objects
@@ -68,12 +68,13 @@ function loadData() {
 
 
 function setup() {
-  createCanvas(640, 360);
+  createCanvas(900, 500);
   loadData();
 }
 
 function draw() {
   background(255);
+  textSize(20); 
 
   for (let i = 0; i < entitObjects.length; i++) {
     entitObjects[i].display();

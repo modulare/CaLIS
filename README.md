@@ -1,2 +1,2 @@
 # CaLIS
->Comparison and Linguistic Interchange System
+Comparison and Linguistic Interchange System
